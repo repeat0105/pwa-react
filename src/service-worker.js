@@ -70,12 +70,12 @@ registerRoute(
 // });
 
 
-self.addEventListener('message', (e) => {
-  console.log('메세지가?....', e.data)
-  self.registration.showNotification('title', {
-      body: e.data.message,
-  })
-})
+// self.addEventListener('message', (e) => {
+//   console.log('메세지가?....', e.data)
+//   self.registration.showNotification('title', {
+//       body: e.data.message,
+//   })
+// })
 
 self.addEventListener('message', (e) => {
   console.log('메세지가?....', e.data)
